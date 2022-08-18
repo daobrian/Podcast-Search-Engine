@@ -8,4 +8,4 @@ it was mentioned in! The database currently holds all episodes found in this You
 -Enter any query and hit enter. Results will be paginated. 
 -Click on a result to reveal the full SRT file which has a timestamped transcript or click on the underlined title to visit the YouTube video.
 
-![Screenshot](images/shapiro_moment.jpg)
+![Screenshot](page.PNG)
