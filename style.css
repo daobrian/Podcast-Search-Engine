@@ -1,0 +1,136 @@
+*{
+	margin:  0;
+	padding:  0;
+	box-sizing: border-box;
+	color: white;
+  	font: 1.3rem Inconsolata, monospace;
+  	text-shadow: 0 0 5px #C8C8C8;
+}
+
+body {
+	width:  100%;
+	min-height: 100vh;
+	padding:  5%;
+	background-color: black;
+	background-size: cover;
+	background: center / cover url('images/shapiro_moment.jpg');
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.search-bar input {
+	height: 30px;
+    width: 500px;
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 20px;
+	color: #cac7ff;
+}
+
+::placeholder {
+	color: #cac7ff;
+}
+
+#btn img {
+	width:  20px;
+}
+
+.volume-ctrl button {
+	position: fixed;
+    right: 5%;
+	bottom: 5%;
+}
+
+#btn {
+	border: 0;
+	border-radius: 70%;
+	width: 45px;
+	height: 45px;
+	background:  #5072A7;
+	cursor: pointer;
+}
+
+div.logo {
+	margin: 0 auto;
+	width: 55%;
+	max-width: 700%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 40px 0px 100px 0px;
+}
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+.card {
+	width: 920px;
+	height: 400px;
+	margin: 20px;
+	border-radius: 60px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(4px) saturate(180%);
+	padding: 25px 25px;
+}
+
+.card:hover {
+	background-color: rgba(200, 200, 200, 0.1);
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 0.5s ease;
+}
+
+.card:hover:after {
+	position: absolute;
+    content: attr(title);
+    display: inline-block;
+    right: 0px;
+    bottom: 0px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+}
+
+.search-bar {
+	margin: 0 auto;
+	width: 50%;
+	max-width: 700%;
+	background: rgba(255, 255, 255, 0.2);
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	padding: 5px 20px;
+	backdrop-filter: blur(4px) saturate(180%);
+}
+
+.pagination a {
+	width: 920px;
+	height: 400px;
+	background: rgba(255, 255, 255, 0.3);
+	padding: 25px 25px;
+	border-radius: 20px;
+}
+
+.pagination a:hover {
+	background-color: rgba(200, 200, 200, 0.1);
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+.donate {
+	position: fixed;
+    left: 5%;
+	bottom: 5%;
+}
